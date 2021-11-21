@@ -1,0 +1,21 @@
+{
+  "name": "klis4serv-backend",
+  "version": "1.0.0",
+  "description": "klis4serv backend ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Ilya KLeshchenok",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+  
+}
