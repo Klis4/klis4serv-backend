@@ -10,10 +10,6 @@ app.use('/api', router);
 
 const DB_URL = 'mongodb+srv://user:user255255@cluster0.jrvmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
-
-
-
-
 async function startApp () {
   try {
     await mongoose.connect(DB_URL);
@@ -25,8 +21,3 @@ async function startApp () {
 }
 
 startApp();
-
-// app.post('/', async (req, res) => {
-//   const {name, phone, service} = req.body;
-//   const order = await Order.create({name, phone, service})
-// })

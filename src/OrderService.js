@@ -33,9 +33,6 @@ class OrderService {
       }
       const order = await Order.findByIdAndDelete(id);
       return order;
-    
-     
-    
   }
 }
 

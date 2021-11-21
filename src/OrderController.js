@@ -1,4 +1,3 @@
-import Order from './Order.js';
 import OrderService from './OrderService.js';
 
 class OrderController {
@@ -46,8 +45,6 @@ class OrderController {
       res.status(500).json(e);
     }
   }
-
-
 }
 
 export default new OrderController();
